@@ -1,11 +1,18 @@
 ## API Standard documentation
 
 ## install gitbook and run book in your local
-sudo  npm install -g gitbook-cli
+>
+``` sudo  npm install -g gitbook-cli
+create your SUMMARY.md file
+run "gitbook init" to generate folder structures
+```
+
+or you can youse gitbook summary to maintain the book structure automatically.
+```
 sudo  npm install -g gitbook-summary
 cd docs/
 book sm  (this will generate the summary.md)
-
+```
 
 #### Release document
 * ./gitbook.sh to dev  to  localtest http://127.0.0.1:4001
